@@ -17,7 +17,6 @@ function App() {
     setName('')
   }
   const onClickDelete = (id) => {
-    console.log(id)
     dispatch(removeUser(id));
   }
   return (
